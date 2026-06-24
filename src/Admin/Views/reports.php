@@ -31,7 +31,7 @@
         </div>
         <div class="wox-stat-card" style="background:#fff;padding:20px;border:1px solid #ccd0d4;border-radius:4px;">
             <h3><?php echo esc_html__('Recovered Revenue', 'whatsapp-ox'); ?></h3>
-            <p style="font-size:2em;font-weight:700;margin:10px 0 0;color:#46b450;"><?php echo esc_html(wc_price($recovered_revenue)); ?></p>
+            <p style="font-size:2em;font-weight:700;margin:10px 0 0;color:#46b450;"><?php echo wp_kses_post(wc_price($recovered_revenue)); ?></p>
         </div>
     </div>
 

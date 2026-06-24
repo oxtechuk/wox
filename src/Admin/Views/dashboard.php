@@ -39,7 +39,7 @@
                 <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11.5v-1.25c1.07-.2 2-.85 2-2.25 0-1.4-1.08-2.25-2.5-2.25-.83 0-1.5-.22-1.5-1s.67-1 1.5-1c.55 0 1.03.2 1.38.56l1.24-1.24A3.46 3.46 0 0011 5.5V4H9v1.5C7.93 5.7 7 6.35 7 7.75c0 1.4 1.08 2.25 2.5 2.25.83 0 1.5.22 1.5 1s-.67 1-1.5 1c-.55 0-1.03-.2-1.38-.56L7 11.93A3.46 3.46 0 009 14.5V16h2v-1.5z"/></svg>
             </span>
             <span class="wox-kpi-label"><?php esc_html_e('Revenue Recovered', 'whatsapp-ox'); ?></span>
-            <span class="wox-kpi-value"><?php echo esc_html(wc_price($recovered_revenue)); ?></span>
+            <span class="wox-kpi-value"><?php echo wp_kses_post(wc_price($recovered_revenue)); ?></span>
         </div>
     </div>
 
@@ -232,7 +232,7 @@
                         <?php foreach ($recent_carts as $cart) : ?>
                             <tr>
                                 <td><?php echo esc_html($cart->phone ?: '-'); ?></td>
-                                <td><?php echo esc_html(wc_price($cart->cart_total)); ?></td>
+                                <td><?php echo wp_kses_post(wc_price($cart->cart_total)); ?></td>
                                 <td>
                                     <span class="wox-status-badge wox-status-<?php echo esc_attr($cart->status); ?>">
                                         <?php echo esc_html(ucfirst($cart->status)); ?>

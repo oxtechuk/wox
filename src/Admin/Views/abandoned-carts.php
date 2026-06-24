@@ -47,7 +47,7 @@
                 <?php foreach ($carts as $cart) : ?>
                     <tr>
                         <td><?php echo esc_html($cart->phone); ?></td>
-                        <td><?php echo esc_html(wc_price($cart->cart_total)); ?></td>
+                        <td><?php echo wp_kses_post(wc_price($cart->cart_total)); ?></td>
                         <td><?php echo esc_html($cart->reminder_count); ?></td>
                         <td><?php echo esc_html($cart->updated_at); ?></td>
                     </tr>

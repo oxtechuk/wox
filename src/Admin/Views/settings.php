@@ -231,7 +231,7 @@
                             <?php foreach ($data['carts'] as $cart) : ?>
                                 <tr>
                                     <td><?php echo esc_html($cart->phone); ?></td>
-                                    <td><?php echo esc_html(wc_price($cart->cart_total)); ?></td>
+                                    <td><?php echo wp_kses_post(wc_price($cart->cart_total)); ?></td>
                                     <td><?php echo esc_html($cart->reminder_count); ?></td>
                                     <td><?php echo esc_html($cart->updated_at); ?></td>
                                 </tr>
@@ -507,7 +507,7 @@
                     </div>
                     <div class="wox-stat-card" style="background:#fff;padding:20px;border:1px solid #ccd0d4;border-radius:4px;">
                         <h3><?php esc_html_e('Recovered Revenue', 'whatsapp-ox'); ?></h3>
-                        <p style="font-size:2em;font-weight:700;margin:10px 0 0;color:#46b450;"><?php echo esc_html(wc_price($data['report_revenue'])); ?></p>
+                        <p style="font-size:2em;font-weight:700;margin:10px 0 0;color:#46b450;"><?php echo wp_kses_post(wc_price($data['report_revenue'])); ?></p>
                     </div>
                 </div>
 

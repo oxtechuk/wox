@@ -13,6 +13,6 @@ class Deactivator
         $cart_cron = new CartCronService();
         $cart_cron->unschedule();
 
-        wp_clear_scheduled_hooks('wox_daily_cleanup');
+        wp_clear_scheduled_hook('wox_daily_cleanup');
     }
 }

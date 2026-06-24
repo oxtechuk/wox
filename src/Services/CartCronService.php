@@ -24,7 +24,7 @@ class CartCronService
 
     public function unschedule(): void
     {
-        wp_clear_scheduled_hooks('wox_cart_reminder');
+        wp_clear_scheduled_hook('wox_cart_reminder');
     }
 
     public function add_cron_interval($schedules): array
@@ -86,7 +86,7 @@ class CartCronService
                 __("Hello! You left items in your cart at %s:\n%s\n\nTotal: %s", 'whatsapp-ox'),
                 $store_name,
                 implode(', ', array_slice($item_names, 0, 3)),
-                wc_price($cart->cart_total)
+                wp_strip_all_tags(wc_price($cart->cart_total))
             );
 
             if ($coupon) {
