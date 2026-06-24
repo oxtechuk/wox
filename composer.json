@@ -1,0 +1,17 @@
+{
+    "name": "ox-tech/whatsapp-ox",
+    "description": "WhatsApp OX - WooCommerce WhatsApp operations plugin: notifications, OTP, cart recovery, campaigns, and more.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Wox\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}

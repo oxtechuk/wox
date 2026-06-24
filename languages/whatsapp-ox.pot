@@ -1,0 +1,1187 @@
+# Copyright (C) 2025 Ox Tech
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp OX 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+#: src\Admin\Pages\Connection.php
+msgid "API Connection"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+msgid "Abandoned Cart Recovery"
+msgstr ""
+
+#: src\Admin\Pages\AbandonedCarts.php
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Abandoned Carts"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+#: src\Admin\Views\settings.php
+msgid "Access Token"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Account Registration"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Account SID"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+#: src\Admin\Views\templates.php
+msgid "Actions"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Add a WhatsApp inquiry button on product pages so customers can ask about items."
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "All Customer Phones"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "All statuses"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "All time"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+#: src\Admin\Views\settings.php
+#: src\Frontend\ProductInquiry.php
+msgid "Ask via WhatsApp"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Auth Token"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Automatically send WhatsApp messages when order status changes."
+msgstr ""
+
+#: src\Admin\Pages\Automations.php
+#: src\Admin\Views\automations.php
+#: src\Admin\Views\settings.php
+msgid "Automations"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Available variables:"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Available:"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+msgid "Back to Campaigns"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Body"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Bottom Offset (px)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Button Text"
+msgstr ""
+
+#: src\Admin\Pages\Campaigns.php
+msgid "Campaign \"%s\" created with %d customers."
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Campaign Name"
+msgstr ""
+
+#: src\Admin\Pages\Campaigns.php
+msgid "Campaign failed to send."
+msgstr ""
+
+#: src\Admin\Pages\Campaigns.php
+msgid "Campaign name is required."
+msgstr ""
+
+#: src\Admin\Pages\Campaigns.php
+msgid "Campaign sent: %d delivered, %d failed."
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+msgid "Campaign:"
+msgstr ""
+
+#: src\Admin\Pages\Campaigns.php
+#: src\Admin\Views\campaigns.php
+msgid "Campaigns"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "Cancelled"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Cart Recovery Settings"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Carts Recovered"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Checkout (before order submission)"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Click \"Send Code\" to verify your phone"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Code sent to your WhatsApp."
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "Completed"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Configure Connection"
+msgstr ""
+
+#: src\Admin\Pages\Connection.php
+msgid "Connection"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Count"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Create Campaign"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\campaigns.php
+#: src\Admin\Views\templates.php
+msgid "Created"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Custom Variables (comma separated)"
+msgstr ""
+
+#: src\Services\CampaignService.php
+msgid "Customer"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Customer Filter"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Daily Breakdown"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Daily Report"
+msgstr ""
+
+#: src\Admin\Pages\Dashboard.php
+msgid "Dashboard"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Date"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Default Greeting"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Delete"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Delete this template?"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Delivered"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Enable Button"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Enable Cart Recovery"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Enable OTP"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Enable Widget"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Enable phone verification via OTP"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+#: src\Admin\Views\settings.php
+msgid "Enable sandbox (mock provider, no real messages sent)"
+msgstr ""
+
+#: src\Admin\Views\automations.php
+#: src\Admin\Views\settings.php
+msgid "Enabled"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Enter verification code"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Error"
+msgstr ""
+
+#: src\Services\CartCronService.php
+msgid "Every 15 minutes"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Example Message Preview"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Failed"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Failed Messages"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Filter"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "First Reminder Delay (minutes)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Floating WhatsApp Widget"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Footer (optional)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "General"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Header (optional)"
+msgstr ""
+
+#: src\Services\CartCronService.php
+msgid "Hello! You left items in your cart at %s:n%snnTotal: %s"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+#: src\Frontend\ProductInquiry.php
+msgid "Hello, I have a question about: %s"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+#: src\Admin\Views\settings.php
+#: src\Frontend\ChatButton.php
+msgid "Hello, I have a question."
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "ID"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Icon Size (px)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Icon Style"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Include country code, no plus sign."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Include in Message"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Invalid or expired code."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+#: src\Admin\Views\templates.php
+msgid "Language"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "English"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Arabic"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Choose plugin interface language. English is the default."
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Last 30 days"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Last 7 days"
+msgstr ""
+
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Last 90 days"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Last Updated"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Left"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Login"
+msgstr ""
+
+#: src\Admin\Pages\Logs.php
+#: src\Admin\Views\settings.php
+msgid "Logs"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Logs Retention"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Manage Templates"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Max Attempts"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Max Reminders"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Max Total Spent"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Message Body"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Message Logs"
+msgstr ""
+
+#: src\Admin\Pages\Templates.php
+#: src\Admin\Views\templates.php
+msgid "Message Templates"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Messages Sent"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Meta official API (free tier available)"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Min Orders Count"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Min Total Spent"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+#: src\Admin\Views\templates.php
+msgid "Name"
+msgstr ""
+
+#: src\Admin\Pages\Templates.php
+msgid "Name and body are required."
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "New Campaign"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "New Order"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "New Template"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "No abandoned carts tracked yet."
+msgstr ""
+
+#: src\Admin\WooOrderActions.php
+msgid "No billing phone number."
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "No campaigns yet."
+msgstr ""
+
+#: src\Admin\Views\reports.php
+msgid "No data for this period."
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "No limit"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "No log entries found."
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+msgid "No recipients."
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "No templates yet."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "OTP"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "OTP Code Length"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "OTP Expiry (seconds)"
+msgstr ""
+
+#: src\Admin\Pages\OtpSettings.php
+#: src\Admin\Views\otp-settings.php
+msgid "OTP Settings"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "OTP Verification Settings"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "On Hold"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Optional"
+msgstr ""
+
+#: src\Admin\Views\order-meta-box.php
+msgid "Or custom message:"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Order"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Order Event Automations"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Order ID:"
+msgstr ""
+
+#: src\Admin\WooOrderActions.php
+msgid "Order not found."
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Pending"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "Pending Payment"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Phone"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+#: src\Admin\Views\settings.php
+msgid "Phone Number ID"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Phone Verification"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Phone and code are required."
+msgstr ""
+
+#: src\Admin\Views\connection.php
+msgid "Phone number for testing (include country code)."
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Phone number is required."
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Phone verified successfully."
+msgstr ""
+
+#: src\Admin\Views\order-meta-box.php
+msgid "Phone:"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Please verify your phone number via WhatsApp OTP."
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Please wait before requesting a new code."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Position"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Pre-filled message when user opens chat."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Preview"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Price:"
+msgstr ""
+
+#: src\Frontend\ProductInquiry.php
+msgid "Price: %s"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "Processing"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Product SKU"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Product URL"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Product price"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Provider"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Provider Selection"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Quick Actions"
+msgstr ""
+
+#: src\Admin\Views\order-meta-box.php
+msgid "Recent Messages:"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+msgid "Recipients"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Recovered Revenue"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Recovery Coupon Code"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+msgid "Recovery Coupon Code (optional)"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "Refunded"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Reminders"
+msgstr ""
+
+#: src\Admin\Pages\Reports.php
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+msgid "Reports"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Resend Code"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Resend Cooldown (seconds)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Right"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Round"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "SKU:"
+msgstr ""
+
+#: src\Frontend\ProductInquiry.php
+msgid "SKU: %s"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+#: src\Admin\Views\settings.php
+msgid "Sandbox Mode"
+msgstr ""
+
+#: src\Admin\Views\automations.php
+msgid "Save Automations"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+msgid "Save Connection"
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+msgid "Save OTP Settings"
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Save Settings"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Save Template"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Saved Campaigns"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Saved Templates"
+msgstr ""
+
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Search by phone or message..."
+msgstr ""
+
+#: src\Admin\Views\automations.php
+#: src\Admin\Views\settings.php
+msgid "Select template"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Select which product details to include in the WhatsApp message."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Sell via WhatsApp"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+msgid "Send Campaign Now"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Send Code"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Send Now"
+msgstr ""
+
+#: src\Admin\Views\order-meta-box.php
+#: src\Admin\WooOrderActions.php
+msgid "Send WhatsApp"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Send daily WhatsApp summary to store admin"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Send this campaign now?"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+msgid "Send this campaign to all customers now?"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Sending..."
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Sent"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Sent / Total"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Sent At"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Set Up Automations"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+#: src\Admin\Views\abandoned-carts.php
+msgid "Settings"
+msgstr ""
+
+#: src\Admin\Pages\Settings.php
+msgid "Settings saved."
+msgstr ""
+
+#: src\Services\CartCronService.php
+msgid "Shop now: "
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Show WhatsApp button on single product pages"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Show floating WhatsApp chat button on frontend"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Shows how the widget will look on your store frontend."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Side Offset (px)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Square"
+msgstr ""
+
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\campaigns.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\reports.php
+#: src\Admin\Views\settings.php
+#: src\Admin\Views\templates.php
+msgid "Status"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Store Information"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Store Name"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Support Phone Number"
+msgstr ""
+
+#: src\Admin\Views\automations.php
+#: src\Admin\Views\logs.php
+#: src\Admin\Views\settings.php
+msgid "Template"
+msgstr ""
+
+#: src\Admin\Views\templates.php
+msgid "Template Name"
+msgstr ""
+
+#: src\Admin\Pages\Templates.php
+msgid "Template deleted."
+msgstr ""
+
+#: src\Admin\Pages\Templates.php
+msgid "Template saved."
+msgstr ""
+
+#: src\Admin\Views\order-meta-box.php
+msgid "Template:"
+msgstr ""
+
+#: src\Admin\Pages\Templates.php
+msgid "Templates"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+#: src\Admin\Views\settings.php
+msgid "Test Phone Number"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "The Twilio WhatsApp-enabled number (include country code)."
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\campaign-view.php
+#: src\Admin\Views\settings.php
+msgid "Total"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Total %d phone numbers found."
+msgstr ""
+
+#: src\Admin\Views\abandoned-carts.php
+#: src\Admin\Views\settings.php
+msgid "Track abandoned carts and send reminders"
+msgstr ""
+
+#: src\Admin\Views\automations.php
+#: src\Admin\Views\settings.php
+msgid "Trigger"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Twilio WhatsApp API"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Twilio WhatsApp Settings"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Twilio conversational platform"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "URL:"
+msgstr ""
+
+#: src\Frontend\ProductInquiry.php
+msgid "URL: %s"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "Use Template (optional)"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Used as {{store_name}} in message templates."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Used for the WhatsApp chat widget and product inquiry button."
+msgstr ""
+
+#: src\Admin\Views\otp-settings.php
+#: src\Admin\Views\settings.php
+msgid "Verification Contexts"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Verified Phones"
+msgstr ""
+
+#: src\Services\OtpCheckout.php
+msgid "Verify"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "View"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "View Logs"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+#: src\Admin\Views\settings.php
+msgid "Webhook Verify Token"
+msgstr ""
+
+#: src\Admin\Views\connection.php
+msgid "WhatsApp API Connection"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "WhatsApp Cloud API"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "WhatsApp Cloud API Settings"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "WhatsApp From Number"
+msgstr ""
+
+#: src\Admin\Menu.php
+#: src\Admin\WooOrderActions.php
+msgid "WhatsApp OX"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "WhatsApp OX Dashboard"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "WhatsApp OX Settings"
+msgstr ""
+
+#: src\Api\WhatsAppCloudApi.php
+msgid "WhatsApp OX connection test successful."
+msgstr ""
+
+#: src\Core\Activator.php
+msgid "WhatsApp OX requires PHP 8.0 or higher."
+msgstr ""
+
+#: src\Core\Activator.php
+msgid "WhatsApp OX requires WooCommerce to be installed and active."
+msgstr ""
+
+#: src\Admin\WooOrderActions.php
+msgid "WhatsApp message sent."
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "Widget"
+msgstr ""
+
+#: src\Services\OtpService.php
+msgid "Your verification code is: %s"
+msgstr ""
+
+#: src\Admin\Views\settings.php
+msgid "days"
+msgstr ""
+
+#: src\Services\CartCronService.php
+msgid "nnUse coupon: %s to complete your order!"
+msgstr ""
+
+#: src\Admin\Views\order-meta-box.php
+msgid "— Custom message —"
+msgstr ""
+
+#: src\Admin\Views\campaigns.php
+msgid "— Write custom message —"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Delivery Rate"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Revenue Recovered"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Active Customers"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Unread Messages"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Carts Recovered"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "OTPs Verified"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Messages Over Time"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "No revenue data for this period."
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Inbox"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "No incoming messages yet."
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "From"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Received"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Action"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Reply"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Type your reply..."
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Send Reply"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Cancel"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "No customer activity in this period."
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Recent Abandoned Carts"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "No messages sent yet."
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Recent Messages"
+msgstr ""
+
+#: src\Admin\Views\dashboard.php
+msgid "Last Template"
+msgstr ""
+
+#: src\Services\ConversationService.php
+msgid "Conversation not found."
+msgstr ""
+
+#: src\Core\Plugin.php
+msgid "Invalid request."
+msgstr ""
+
+#: src\Core\Plugin.php
+msgid "Failed to send reply."
+msgstr ""
+
+#: src\Core\Plugin.php
+msgid "Unauthorized"
+msgstr ""
+

@@ -1,0 +1,55 @@
+.wox-chat-button {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.wox-chat-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.wox-chat-button--round {
+    border-radius: 50%;
+}
+
+.wox-chat-button--square {
+    border-radius: 8px;
+}
+
+.wox-chat-button--right {
+    right: 20px;
+}
+
+.wox-chat-button--left {
+    left: 20px;
+}
+
+.wox-chat-button svg {
+    fill: currentColor;
+}
+
+@media (max-width: 768px) {
+    .wox-chat-button {
+        width: 50px !important;
+        height: 50px !important;
+        bottom: 15px !important;
+    }
+    .wox-chat-button--right {
+        right: 15px !important;
+    }
+    .wox-chat-button--left {
+        left: 15px !important;
+    }
+    .wox-chat-button svg {
+        width: 24px !important;
+        height: 24px !important;
+    }
+}

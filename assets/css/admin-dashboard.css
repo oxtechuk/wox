@@ -1,0 +1,328 @@
+.wox-dashboard {
+    max-width: 1200px;
+}
+
+.wox-dash-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.wox-dash-logo {
+    height: 44px;
+    width: auto;
+}
+
+.wox-period-form select {
+    min-width: 160px;
+}
+
+.wox-kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.wox-kpi-card {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+
+.wox-kpi-card-sm {
+    padding: 16px 20px;
+}
+
+.wox-kpi-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.wox-kpi-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.wox-kpi-icon-sent {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.wox-kpi-icon-rate {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.wox-kpi-icon-failed {
+    background: #fbe9e7;
+    color: #c62828;
+}
+
+.wox-kpi-icon-revenue {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.wox-kpi-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #757575;
+    margin-bottom: 4px;
+}
+
+.wox-kpi-value {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1d2327;
+}
+
+.wox-kpi-value-danger {
+    color: #c62828;
+}
+
+.wox-kpi-value-warn {
+    color: #e65100;
+}
+
+.wox-section {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+
+.wox-section h2 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wox-badge {
+    background: #c62828;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    line-height: 1.4;
+}
+
+.wox-charts-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.wox-chart-panel {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 8px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+
+.wox-chart-panel h3 {
+    margin: 0 0 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1d2327;
+}
+
+.wox-chart-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 120px;
+    position: relative;
+}
+
+.wox-chart-bar-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.wox-chart-bar {
+    width: 100%;
+    max-width: 32px;
+    background: #e0e0e0;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    min-height: 4px;
+    transition: height .3s ease;
+}
+
+.wox-chart-bar-sent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #25D366;
+    border-radius: 3px 3px 0 0;
+}
+
+.wox-chart-bar-revenue {
+    background: #e65100;
+}
+
+.wox-chart-label {
+    font-size: 9px;
+    color: #757575;
+    margin-top: 4px;
+    white-space: nowrap;
+}
+
+.wox-chart-empty {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    padding: 40px 0;
+}
+
+.wox-bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.wox-inbox-table {
+    margin-top: 8px;
+}
+
+.wox-inbox-unread {
+    background: #f0f8ff !important;
+}
+
+.wox-inbox-unread td:first-child {
+    border-left: 3px solid #25D366;
+}
+
+.wox-reply-form {
+    padding: 12px;
+    background: #f6f7f7;
+    border-radius: 4px;
+}
+
+.wox-reply-text {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.wox-reply-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wox-reply-spinner {
+    font-size: 12px;
+    color: #757575;
+}
+
+.wox-status-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.wox-status-sent {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.wox-status-delivered {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.wox-status-read {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.wox-status-failed {
+    background: #fbe9e7;
+    color: #c62828;
+}
+
+.wox-status-pending {
+    background: #fff8e1;
+    color: #f57f17;
+}
+
+.wox-status-unread {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.wox-status-replied {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.wox-status-abandoned {
+    background: #fff8e1;
+    color: #f57f17;
+}
+
+.wox-status-recovered {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.wox-empty {
+    color: #999;
+    font-size: 13px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 782px) {
+    .wox-kpi-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wox-charts-row {
+        grid-template-columns: 1fr;
+    }
+
+    .wox-bottom-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wox-dash-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
